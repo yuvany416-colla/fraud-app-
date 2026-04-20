@@ -7,8 +7,7 @@ model = joblib.load('logistic_regression_model.pkl')
  
 # Define the Streamlit app 
 def main(): 
-    st.markdown("<p style='font-family:Serif Fonts; font-size:40px'>Fraud Detection App 
-</p>", unsafe_allow_html=True) 
+    st.markdown("<p style='font-family:Serif Fonts; font-size:40px'>Fraud Detection App </p>", unsafe_allow_html=True) 
     st.sidebar.markdown("<p style='font-family:cursive; font-size:large'>Welcome </p>", 
 unsafe_allow_html=True) 
     st.sidebar.image('hands-4519047.png') 
