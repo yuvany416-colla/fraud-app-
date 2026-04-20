@@ -22,8 +22,7 @@ min_value=0.004399, max_value=267.802942)
     repeat_retailer = st.selectbox("Repeat Retailer", [0, 1]) 
     used_chip = st.selectbox("Used Chip", [0, 1]) 
     used_pin_number = st.selectbox("Used Pin Number", [0, 1]) 
-31 | P a g 
-e 
+
  
  
     online_order = st.selectbox("Online Order", [0, 1]) 
